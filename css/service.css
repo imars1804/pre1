@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'the_californicationregular';
+    src: url('../fuentes/the-californication/the_californication-webfont.woff2') format('woff2'),
+         url('../fuentes/the-californication/the_californication-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.main-service{
+    height: calc(100vh + 800px);
+}
+
+.container-service{
+    background: rgb(109, 7, 7);
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+    margin-top: 13%;
+    margin-bottom: 3%;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.container-service h1{
+    margin-bottom: 0.1em;
+    font-family: 'the_californicationregular';
+    font-size: 80px;
+}
+
+.container-service p{
+    font-size: 1.3em;
+    line-height: 1.3em;
+    margin: 1%;
+    text-align: justify;
+}
+
+.text__info-service-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1{
+    width: 50%;
+    margin-top: 6%;
+}
+
+.section-1 p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.section-1-media {
+    width: 40%;
+    padding-top: -20px;
+}
+
+.section-1-media img {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 70px;
+    position:relative;
+    filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.5));
+}
+
+.text__info-service-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.section-2 {
+    width: 50%;
+    margin-top: 11%;
+}
+
+.section-2 p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.section-2-media{
+    width: 40%;
+    padding-top: -20px;
+}
+
+.section-2-media img{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+    position:relative;
+    filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.5));
+}
+
+.text__info-service-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.section-3 {
+    width: 50%;
+    margin-top: 6%;
+}
+
+.section-3 p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.section-3-media{
+    width: 40%;
+    padding-top: -20px;
+}
+
+.section-3-media img{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+    position:relative;
+    filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.5));
+}
+
+@media (max-width: 500px) {
+
+    .main-service{
+        height: calc(100vh + 500px);
+    }
+
+    .section-1-media{
+        display: none;
+    }
+
+    .section-2-media{
+        display: none;
+    }
+
+    .section-3-media{
+        display: none;
+    }
+
+    .container-service{
+        margin-top: 20%;
+        max-height: 30%;
+    }
+
+    .container-service p{
+        margin: 3%;
+        font-size: 17.5px;
+        text-align: justify;
+    }
+
+    .section-1{
+        width: 90%;
+    }
+
+    .section-1 p{
+        font-size: 17px;
+
+    }
+
+    .section-2{
+        width: 90%;
+        margin-top: 6%;
+    }
+
+    .section-2 p{
+        font-size: 17px;
+    }
+
+    .section-3{
+        width: 90%;
+    }
+
+    .section-3 p{
+        font-size: 17px;
+    }
+}
